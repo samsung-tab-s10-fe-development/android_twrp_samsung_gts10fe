@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from gts10fewifi device
 $(call inherit-product, device/samsung/gts10fewifi/device.mk)
 
 PRODUCT_DEVICE := gts10fewifi
-PRODUCT_NAME := omni_gts10fewifi
+PRODUCT_NAME := twrp_gts10fewifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-X520
 PRODUCT_MANUFACTURER := samsung

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_gts10fewifi.mk
+    $(LOCAL_DIR)/twrp_gts10fewifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_gts10fewifi-user \
-    omni_gts10fewifi-userdebug \
-    omni_gts10fewifi-eng
+    twrp_gts10fewifi-user \
+    twrp_gts10fewifi-userdebug \
+    twrp_gts10fewifi-eng
